@@ -24,6 +24,7 @@ public class FanoutExchangeConfig {
 		return new FanoutExchange("fanout-exchange");
 	}
 	
+	
 	@Bean
 	public Queue fanoutQueue1() {
 		return new Queue("fanout-queue1", true); // queue 支援持久化保存
